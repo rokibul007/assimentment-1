@@ -1,3 +1,49 @@
 body {
     font-family: 'Poppins', sans-serif;
+
+}
+
+.bannar img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.link-button {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+
+
+}
+
+ul {
+    display: flex;
+    padding-left: 5%;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+
+}
+
+.width {
+    width: 30%;
+    padding: 3%;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 200px;
+
 }
