@@ -1,49 +1,121 @@
-body {
-    font-family: 'Poppins', sans-serif;
-
+.home {
+    display: flex;
+    background: url("images/donation4.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
 }
 
-.bannar img {
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    background-repeat: no-repeat;
+.home .home-content {
+    font-size: 45px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.home .home-content a {
+    display: inline-block;
+    background: rgb(245, 147, 0);
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 300;
+    border-radius: 6px;
+    border: 2px solid rgb(245, 147, 0);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.home .home-content a:hover {
+    color: rgb(245, 147, 0);
+    background: none;
 }
 
 h1 {
+    font-size: 45px;
     text-align: center;
-    font-size: 50px;
-}
-
-.link-button {
-    color: white;
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
-    border-radius: 5px;
-    font-weight: 700;
-
-
-}
-
-ul {
-    display: flex;
-    padding-left: 5%;
-    font-size: 50px;
 }
 
 p {
+    font-size: 20px;
     text-align: center;
-
+    padding: 10px;
 }
 
-.width {
-    width: 30%;
-    padding: 3%;
+.donate {
+    text-align: center;
 }
 
-.flexible-container {
+.donate .doller {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.donate .doller .dip {
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.donate .doller .dip:hover {
+    background-color: red;
+    color: black;
+}
+
+.donate .doller .active {
+    background-color: red;
+    color: black;
+}
+
+a {
+    display: inline-block;
+    background: rgb(245, 147, 0);
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 300;
+    border-radius: 6px;
+    border: 2px solid rgb(245, 147, 0);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.boxs {
     display: flex;
-    margin-bottom: 200px;
+}
 
+.box {
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 5%;
+    box-shadow: 5px 10px 10px black;
+    border-radius: 10px;
+
+}
+
+.update {
+    text-align: center;
+}
+
+.up {
+    height: 100px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 147, 0);
+    color: black;
+    margin-left: 400px;
+}
+
+.footer {
+    background-color: black;
+    color: red;
 }
